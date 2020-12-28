@@ -1,0 +1,30 @@
+* {
+    overflow: auto;
+  }
+
+.SearchResults {
+    width: 45%;
+    height: 950px;
+    overflow: auto;
+    padding: .88rem;
+    background-color: rgba(1, 12, 63, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+    color: #6c41ec;
+}
+
+::-webkit-scrollbar { 
+    width: 0px;
+    background: transparent;
+}
+
+h2 {
+    padding: 4px;
+    color: darkgrey;
+}
+
+@media only screen and (max-width: 1020px) {
+    .SearchResults {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+}
