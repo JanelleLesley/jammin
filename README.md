@@ -1,3 +1,9 @@
+Jammin.
+
+This React app allows users to interface with the Spotify API to login and add newly created playlists to their Spotify account
+
+Tech used: HTML, CSS, JS, React, Spotify API
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
